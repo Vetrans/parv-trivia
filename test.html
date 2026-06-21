@@ -569,7 +569,7 @@
             const pct = Math.round((score / questions.length) * 100);
             let msg = '';
             if (pct === 100) msg = 'Perfect score! Nice work.';
-            else if (pct >= 50) msg = 'Good effort — keep practicing!';
+            else if (pct >= 50) msg = 'Good effort, keep practicing!';
             else msg = 'Worth another look at these topics.';
             document.getElementById('resultMsg').textContent = msg + ' (' + pct + '%)';
 
